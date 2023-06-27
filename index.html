@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KSM Android FIK UPN Veteran Jakarta</title>
+    <link rel="icon" href="assets/img/logo UPNVJ.png">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ********* -->
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ********* -->
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- ********* -->
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- ********* -->
+</head>
+
+<body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="assets/img/logo UPNVJ.png" alt="Logo" width="40px"
+                    class="d-inline-block align-text-top me-3">KSM Android
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto">
+                    <div class="boxContainer mx-auto">
+                        <div class="box box1"></div>
+                        <div class="box box2"></div>
+                        <div class="box box3"></div>
+                        <div class="box box4"></div>
+                        <div class="box box5"></div>
+                        <audio id="myAudio" src="assets/music/background_music.mp3" autoplay loop></audio>
+                        <button class="button_music" id="playPauseButton" onclick="togglePlay()">Play/Pause<span
+                                style="font-size: 10px; font-weight: 400;">music</span>
+                        </button>
+                    </div>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+    <!-- SOSIAL MEDIA ASIDE START -->
+    <div class="wrapper">
+        <div class="button" style="margin: 5px 7px">
+            <a class="text-decoration-none" href="https://www.instagram.com/androidupnvj/" target="_blank"
+                style="color: var(--warna-3);">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <span>Instagram</span>
+            </a>
+        </div>
+        <div class="button" style="margin: 5px 7px">
+            <a class="text-decoration-none" href="#" style="color: var(--warna-3);">
+                <div class="icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <span>Github</span>
+            </a>
+        </div>
+        <div class="button" style="margin: 5px 7px">
+            <a class="text-decoration-none" href="https://www.youtube.com/@androidupnvj4239" target="_blank"
+                style="color: var(--warna-3);">
+                <div class="icon">
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <span>YouTube</span>
+            </a>
+        </div>
+    </div>
+    <!-- SOSIAL MEDIA ASIDE END -->
+    <!-- MAIN BACKGROUND - SLIDE 1 START-->
+    <div class="slide1 container-fluid">
+        <div class="container">
+            <div class="row" style="height: 100vh;">
+                <!-- LEFT CONTENT START -->
+                <div class="left_content col-md-4 my-auto" style="z-index: 3;">
+                    <div class="row">
+                        <h1 class="fw-bold" style="color: var(--warna-1); font-size: 36px;">KSM Android</h1>
+                    </div>
+                    <div class="row offset-md-1">
+                        <p class="text-start" style="font-size: 14px;">A study group and organization from computer
+                            science students at UPNVJ
+                            that accomodates to
+                            learn Android Development, Web Development, UI/UX Design and Project Management</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1 offset-md-5">
+                            <a class="text-center" href="#">
+                                <img src="assets/img/Down-arrow.png" alt="" width="20px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- LEFT CONTENT END -->
+                <!-- RIGHT CONTENT START -->
+                <div class="right_content col-md-6 offset-md-2 d-flex justify-content-center flex-column pt-5">
+                    <!-- <div class="row my-3">
+                        <div class="col-3 offset-6">
+                            <img src="assets/img/Hero-3.jpg" alt="" width="280px">
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-3">
+                            <img src="assets/img/Hero-1.jpg" alt="" width="240px">
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-3 offset-4">
+                            <img src="assets/img/Hero-2.jpg" alt="" width="280px">
+                        </div>
+                    </div> -->
+
+                    <div class="row flex-row-reverse my-2">
+                        <img class="img-fluid dot_effect flex-row" src="assets/img/Dot-effect3.png" alt=""
+                            style="z-index: -1;">
+                        <img class="img-fluid"
+                            src="https://www.androidupnvj.com/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fksm-android-a2391.appspot.com%2Fo%2Fimages%252Fworkshop-2020.png%3Falt%3Dmedia%26token%3D6f51ea99-357d-49cb-842a-c2176e94d29c&w=1920&q=75"
+                            alt="" style="width: 280px; position: relative;">
+                    </div>
+                    <div class="row flex-row my-3" style="z-index: 3;">
+                        <img class="img-fluid"
+                            src="https://www.androidupnvj.com/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fksm-android-a2391.appspot.com%2Fo%2Fimages%252Fabdimas.jpg%3Falt%3Dmedia%26token%3Da7ec65b0-646f-4d8d-bcaa-0d90c46d5e95&w=1920&q=75"
+                            alt="" style="width: 240px;">
+                    </div>
+                    <div class="row d-flex justify-content-center my-4">
+                        <img class="img-fluid dot_effect2 flex-row" src="assets/img/Dot-effect3.png" alt=""
+                            style="z-index: -2;">
+                        <img class="img-fluid" src="assets/img/Hero-2.jpg" alt="" style="width: 280px;">
+                    </div>
+                </div>
+                <!-- RIGHT CONTENT END -->
+            </div>
+            <div class="row">
+                <div class="col-12"></div>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN BACKGROUND - SLIDE 1 END -->
+    <!-- ARTICLE - SLIDE 2 START -->
+    <div class="container-fluid"
+        style="background-image: url(assets/img/Peta-UPNVJ.png); background-size: cover; background-repeat: no-repeat; background-position: bottom right;">
+        <div class="container" style="height: 100vh;">
+            <div class="row py-5">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <video class="slide2_video"
+                        src="https://firebasestorage.googleapis.com/v0/b/ksm-android-a2391.appspot.com/o/videos%2Fksm_android.mp4?alt=media&amp;token=2776ae3f-5d3f-44fe-b59e-c416d99bc1e8"
+                        autoplay controls muted loop">Your browser does not support the video
+                        tag.</video>
+                </div>
+                <div class="col-md-5 offset-1 my-auto">
+                    <h1 class="fw-bold p-2" style="font-size: 24px;">Belum kenal <span
+                            style="color: var(--warna-1);">KSM Android?</span></h1>
+                    <p class="slide2_p p-2"><span class="fw-bold" style="color: var(--warna-3);">Yuk kenalan!</span> is
+                        simply dummy text
+                        of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book. It has survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                        desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row my-5">
+                <div class="col-md-6 position-absolute start-0" style="background-color: var(--warna-2);">
+                    <div class="col-md-11 text-end pt-3">
+                        <p style="font-style: italic; font-size: 14px;">“Tuntunlah ilmu sampai negeri cina walau uang
+                            habis dikantong..chuazkk”<br><span class="fw-bold">- Pepatah cina -</span>
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="fw-bold mb-4" style="font-size: 36px; color: var(--warna-1);">Sekarang sudah
+                    kenalkan dengan KSM Android</h1>
+                <a class="text-center fw-bold" href="#"
+                    style="font-size: 14px; text-decoration: none; color: var(--warna-3);">
+                    <img class="mb-2" src="assets/img/Down-arrow.png" alt="" width="20px">
+                    <br>Scroll down
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- ARTICLE - SLIDE 2 END -->
+    <!-- ARTICLE - SLIDE 3 START -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3" style="background-color: var(--warna-2); height: 2px;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container d-flex justify-content-center flex-column" style="height: 100vh;">
+            <div class="row align-content-center mb-4">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bold" style="font-size: 24px; color: var(--warna-1);">What We Learn</h1>
+                    <p class="mx-auto" style="width: 42%; font-size: 14px;">These are our study club classes that were
+                        designed according to the technology industry nowadays</p>
+                </div>
+            </div>
+            <div class="row row-cols-2 text-start">
+                <div class="col px-5 py-4 my-2 " style="border-radius: 20px; box-shadow: 8px 11px 5px 0px rgba(0, 0, 0, 0.07);
+                ">
+                    <h1 class="fw-bold" style="font-size: 14px;">Android</h1>
+                    <p style="font-size: 14px">Learn the fundamental of Android Programming using Kotlin to build useful
+                        and innovative Android
+                        Applications</p>
+                    <button
+                        style="color: var(--warna-2); border-radius: 5px; font-size: 14px; border: 0px; background-color: var(--warna-1);">Read
+                        more...</button>
+                </div>
+                <div class="col px-5 py-4 my-2" style="border-radius: 20px; box-shadow: 8px 11px 5px 0px rgba(0, 0, 0, 0.07);
+                ">
+                    <h1 class="fw-bold" style="font-size: 14px;">Frontend Web</h1>
+                    <p style="font-size: 14px">Learn the fundamental of Frontend Web Development using HTML, CSS, and
+                        JavaScript to build an attractive and interactive websites</p>
+                    <button
+                        style="color: var(--warna-2); border-radius: 5px; font-size: 14px; border: 0px; background-color: var(--warna-4);">Read
+                        more...</button>
+                </div>
+                <div class="col px-5 py-4 my-2" style="border-radius: 20px; box-shadow: 8px 11px 5px 0px rgba(0, 0, 0, 0.07);
+                ">
+                    <h1 class="fw-bold" style="font-size: 14px;">Backend</h1>
+                    <p style="font-size: 14px">Learn how to create or improve back-end processes and codes, such as API
+                        Integrations to create web applications with clean and well-documented code</p>
+                    <button
+                        style="color: var(--warna-2); border-radius: 5px; font-size: 14px; border: 0px; background-color: var(--warna-6);">Read
+                        more...</button>
+                </div>
+                <div class="col px-5 py-4 my-2" style="border-radius: 20px; box-shadow: 8px 11px 5px 0px rgba(0, 0, 0, 0.07);
+                ">
+                    <h1 class="fw-bold" style="font-size: 14px;">UI / UX</h1>
+                    <p style="font-size: 14px">Learn how to collect and research user requirements to deliver an
+                        outstanding user experience providing an exceptional and intuitive Application design</p>
+                    <button
+                        style="color: var(--warna-2); border-radius: 5px; font-size: 14px; border: 0px; background-color: var(--warna-5);">Read
+                        more...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ARTICLE - SLIDE 3 END -->
+    <!-- ARTICLE - SLIDE 4 START -->
+    <div class="container-fluid">
+        <div class="container" style="height: 100vh;">
+            <div class="row" style="background-color: black;">
+                <div class="col-12" style="background-color: var(--warna-2); height: 2px;">
+                </div>
+            </div>
+            <div class="row align-content-center" style="height: 100vh;">
+                <div class="col-5 offset-1 my-auto">
+                    <h1 class="fw-bold mb-3" style="font-size: 24px; color: var(--warna-1);">Explore Our Activity</h1>
+                    <p style="font-size: 14px; width: 400px;">Not only coding, but we also having fun! Because of KSM
+                        Android has a lot of interesting activities that can upgrade our skills</p>
+                </div>
+                <div class="col">
+                    <div id="carouselExampleCaptions" class="carousel slide" ">
+                        <div class=" carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" style="border-radius: 20px; border: 15px solid var(--warna-2);">
+                        <div class="carousel-item active">
+                            <img src="assets/img/Study_club.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fw-bold">Study Club</h5>
+                                <p>Routine Classes According to Specialization</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/Project_managing.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fw-bold">Project Managing</h5>
+                                <p>The Way We Implement What We Learned</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/Gathering.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fw-bold">Gathering</h5>
+                                <p>We Build Our Solidarity and Have Fun Together</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ARTICLE - SLIDE 4 END -->
+    <!-- FOOTER START -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="wrapper-footer">
+                <div class="item-footer m-2 fw-bold">
+                    <img class="img-fluid" alt="" src="assets/img/BEM-FIK.png" width="70px" height="70px"> BEM FIK UPN
+                    VETERAN JAKARTA
+                </div>
+                <div class="item-footer mx-2 fw-bold">
+                    <img class="me-2" alt="" src="assets/img/logo UPNVJ.png" width="60px" height="60px"> KSM ANDROID UPN
+                    VETERAN
+                    JAKARTA
+                </div>
+                <div class="item-footer mx-2 fw-bold">
+                    <img alt="" src="assets/img/UPN FIK.png" width="70px" height="70px"> FIK UPN VETERAN JAKARTA
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+    <!-- SCRIPT PLAY/PAUSE MUSIC START -->
+    <script>
+        var audio = document.getElementById('myAudio');
+        var playPauseButton = document.getElementById('playPauseButton');
+
+        function togglePlay() {
+            if (audio.paused) {
+                audio.play();
+                playPauseButton.innerHTML = 'Pause';
+                playPauseButton.style.color = '#FC3031';
+            } else {
+                audio.pause();
+                playPauseButton.innerHTML = 'Play';
+                playPauseButton.style.color = '#11772D';
+            }
+        }
+    </script>
+    <!-- SCRIPT PLAY/PAUSE MUSIC END -->
+</body>
+
+</html>
